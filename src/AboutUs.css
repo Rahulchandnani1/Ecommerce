@@ -1,0 +1,8 @@
+.at1{
+    font-size: xx-large;
+    font-weight:800;
+}
+.at2{font-size: large;}
+
+.aboutuscontainer{display: flex;justify-content: center;align-items: flex-start;flex-direction: column;
+padding: 20px;}

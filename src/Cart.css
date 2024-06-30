@@ -1,0 +1,14 @@
+.li {
+    list-style: none;
+    background-color: rgb(137, 232, 144);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cdiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

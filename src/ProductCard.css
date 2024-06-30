@@ -1,0 +1,46 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 300px;
+  /* Adjust width as per your design */
+  height: 400px;
+  /* Adjust height as per your design */
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+/* For mobile devices, adjust to one column */
+@media screen and (max-width: 600px) {
+  .product-list {
+    flex-direction: column;
+  }
+}
+
+.product-card {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    margin: 10px;
+  }
+}

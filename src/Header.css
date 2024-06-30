@@ -1,0 +1,32 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header nav ul li {
+    margin-left: 20px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header nav ul {
+      flex-direction: column;
+    }
+  }
+  
+ 

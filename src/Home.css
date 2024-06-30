@@ -1,0 +1,11 @@
+.ht1{
+    font-size: x-large;
+    font-weight:700;
+}
+.ht2{font-size: large;}
+.imgc{
+    height: 400px;
+    width: 100%;
+}
+.btn1{background-color: black;color:white;border:2px solid red;border-radius: 4px;padding: 10px;}
+.hodiv{display: flex;justify-content: center;align-items: center;flex-direction: column;padding-bottom: 40px;}
